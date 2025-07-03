@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaporbyte Hosting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(to right, #00f2fe, #4facfe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .cta-buttons a {
+      background: #ffffff;
+      color: #2a5298;
+      padding: 14px 30px;
+      border-radius: 40px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .cta-buttons a:hover {
+      transform: scale(1.05);
+      background: #f4f4f4;
+    }
+
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 1000px;
+      margin-bottom: 50px;
+    }
+
+    .plan {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .plan:hover {
+      transform: translateY(-5px);
+    }
+
+    .plan h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+
+    .plan ul {
+      list-style: none;
+      margin-bottom: 10px;
+    }
+
+    .plan ul li {
+      margin-bottom: 5px;
+      font-size: 0.95rem;
+    }
+
+    .plan .price {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #00f2fe;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Vaporbyte Hosting</h1>
+  <p class="tagline">Your one-stop Minecraft server paradise</p>
+
+
+
+  <div class="cta-buttons">
+    <a href="https://github.com/Vaporbyte/mc-scripts" target="_blank">GitHub Scripts</a>
+    <a href="mailto:contactVaporbyte@gmail.com">Contact Us</a>
+  </div>
+
+  <div class="plans">
+    <div class="plan">
+      <h2>Free Plan</h2>
+      <ul>
+        <li>1GB RAM</li>
+        <li>5 Player Slot</li>
+        <li>Basic Uptime</li>
+      </ul>
+      <div class="price">0 / mo</div>
+    </div>
+
+    <div class="plan">
+      <h2>Copper Plan</h2>
+      <ul>
+        <li>3GB RAM</li>
+        <li>7 Player Slots</li>
+      </ul>
+      <div class="price">99INR / mo</div>
+    </div>
+
+    <div class="plan">
+      <h2>Iron Plan</h2>
+      <ul>
+        <li>6GB RAM</li>
+        <li>15 Player slots</li>
+      </ul>
+      <div class="price">249INR / mo</div>
+    </div>
+  </div>
+    
+    <div class="plan">
+      <h2>Gold Plan</h2>
+      <ul>
+        <li>8GB RAM</li>
+        <li>20 Player Slots</li>
+      </ul>
+      <div class="price">299INR / mo</div>
+    </div>
+  </div>
+
+   <div class="plan">
+      <h2>Diamond Plan</h2>
+      <ul>
+        <li>12GB RAM</li>
+        <li>30 Player slots</li>
+      </ul>
+      <div class="price">399INR/ mo</div>
+    </div>
+  </div>
+
+   <div class="plan">
+      <h2>Netherite plan</h2>
+      <ul>
+        <li>16GB RAM</li>
+        <li>50</li>
+      </ul>
+      <div class="price">499INR/ mo</div>
+    </div>
+  </div>
+
+  <footer>© 2025 Vaporbyte Hosting All rights reserved.</footer>
+
+</body>
+</html>
